@@ -1,0 +1,91 @@
+/* coding and styling done by-divyansh rautela */
+*{
+    margin: 20px;
+    border: border-box;
+    font-family: Lucida;
+}
+body {
+    background-image: url("https://st2.depositphotos.com/1006899/7837/i/950/depositphotos_78372866-stock-photo-white-word-expenses.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .input-section label {
+    font-weight: bold;
+    margin-right: 50px;
+  }
+  
+  .input-section input[type="number"], .input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 1px;
+  }
+  
+  .input-section button {
+    padding: 5px 10px;
+    background-color: #4c68af;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .expenses_list {
+    max-width: 80rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+
+.glass{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+border-radius: 20px;
+border: 1px solid rgba(255,255,255,0.19);
+box-shadow: 0 8px 32px 0 rgba(255,255,255,0.37);
+}
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #1997e0;
+    color: white;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
